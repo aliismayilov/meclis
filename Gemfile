@@ -7,7 +7,8 @@ gem 'secure_headers',         '~> 1.1.1'
 gem 'jquery-rails',           '~> 3.1.0'
 gem 'turbolinks',             '~> 2.2.1'
 gem 'jbuilder',               '~> 2.0.3'
-gem 'pg',                     '~> 0'
+gem 'haml'
+gem 'pg'
 gem 'sass-rails',             '~> 4.0.1'
 gem 'coffee-rails',           '~> 4.0.1'
 gem 'uglifier',               '~> 2.4.0'
@@ -16,7 +17,7 @@ gem 'rack-timeout',           '~> 0.0.4'
 gem 'bourbon',                '~> 3.1.8'
 
 group :production do
-  gem 'rails_12factor',       '~> 0'
+  gem 'rails_12factor'
   gem 'rollbar',              '=  0.12.12'
 end
 

@@ -72,6 +72,8 @@ GEM
     foreman (0.63.0)
       dotenv (>= 0.7)
       thor (>= 0.13.6)
+    haml (4.0.5)
+      tilt
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (2.0.3)
@@ -214,19 +216,20 @@ DEPENDENCIES
   email_spec (~> 1.5.0)
   factory_girl_rails (~> 4.4.0)
   foreman (~> 0.63.0)
+  haml
   jbuilder (~> 2.0.3)
   jquery-rails (~> 3.1.0)
   jumpup (= 0.0.3)
   jumpup-heroku (= 0.0.3)
   letter_opener (~> 1.2.0)
-  pg (~> 0)
+  pg
   poltergeist (~> 1.5.0)
   pry-rails (~> 0.3.2)
   puma (~> 2.7.1)
   rack-canonical-host (~> 0.0.8)
   rack-timeout (~> 0.0.4)
   rails (= 4.0.3)
-  rails_12factor (~> 0)
+  rails_12factor
   rollbar (= 0.12.12)
   rspec-rails (~> 3.0.0.beta)
   sass-rails (~> 4.0.1)
