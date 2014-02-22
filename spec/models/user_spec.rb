@@ -12,6 +12,10 @@ describe User do
     it { should validate_uniqueness_of  :access_token }
   end
 
+  describe :associations do
+    it { should have_many(:posts).dependent(:destroy) }
+  end
+
   describe '.find_or_create_with_omniauth' do
     let(:auth) do
       {
