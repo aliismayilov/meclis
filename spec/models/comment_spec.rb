@@ -6,6 +6,8 @@ describe Comment do
   end
 
   describe :associations do
+    it { should have_many(:votes).dependent(:destroy) }
+
     it { should belong_to :user }
     it { should belong_to :post }
   end

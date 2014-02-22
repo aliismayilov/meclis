@@ -15,6 +15,7 @@ describe User do
   describe :associations do
     it { should have_many(:posts).dependent(:destroy) }
     it { should have_many(:comments).dependent(:destroy) }
+    it { should have_many(:votes) }
   end
 
   describe '.find_or_create_with_omniauth' do
