@@ -33,6 +33,7 @@ end
 group :test do
   gem 'shoulda-matchers',     '~> 2.5.0'
   gem 'simplecov',            '~> 0.8.2', require: false
+  gem 'coveralls',                        require: false
   gem 'email_spec',           '~> 1.5.0'
   gem 'capybara',             '~> 2.2.1'
   gem 'poltergeist',          '~> 1.5.0'
