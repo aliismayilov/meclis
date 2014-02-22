@@ -4,6 +4,7 @@ meclis
 [![Build Status](https://travis-ci.org/aliismayilov/meclis.png)](https://travis-ci.org/aliismayilov/meclis)
 [![Code Climate](https://codeclimate.com/github/aliismayilov/meclis.png)](https://codeclimate.com/github/aliismayilov/meclis)
 [![Coverage Status](https://coveralls.io/repos/aliismayilov/meclis/badge.png)](https://coveralls.io/r/aliismayilov/meclis)
+[![Dependency Status](https://gemnasium.com/aliismayilov/meclis.png)](https://gemnasium.com/aliismayilov/meclis)
 
 ## How to run this project?
 
