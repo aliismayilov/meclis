@@ -2,6 +2,7 @@ meclis
 =======
 
 [![Build Status](https://travis-ci.org/aliismayilov/meclis.png)](https://travis-ci.org/aliismayilov/meclis)
+[![Code Climate](https://codeclimate.com/github/aliismayilov/meclis.png)](https://codeclimate.com/github/aliismayilov/meclis)
 
 ## How to run this project?
 
