@@ -23,8 +23,8 @@ end
 
 group :development do
   gem 'foreman',              '~> 0.63.0'
-  gem 'jumpup',               '=  0.0.3'
-  gem 'jumpup-heroku',        '=  0.0.3'
+  gem 'jumpup',               '=  0.0.4'
+  gem 'jumpup-heroku',        '=  0.0.4'
   gem 'better_errors',        '~> 1.1.0'
   gem 'binding_of_caller',    '~> 0.7.2'
   gem 'letter_opener',        '~> 1.2.0'
@@ -45,6 +45,6 @@ group :development, :test do
   gem 'rspec-its'
   gem 'factory_girl_rails',   '~> 4.4.0'
   gem 'pry-rails',            '~> 0.3.2'
-  gem 'dotenv-rails',         '~> 0.9.0'
+  gem 'dotenv-rails',         '~> 0.10.0'
 end
 
