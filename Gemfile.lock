@@ -245,7 +245,7 @@ DEPENDENCIES
   rack-timeout (~> 0.0.4)
   rails (= 4.0.3)
   rails_12factor
-  rollbar (= 0.12.12)
+  rollbar
   rspec-its
   rspec-rails (~> 3.0.0.beta)
   sass-rails (~> 4.0.1)

@@ -18,7 +18,7 @@ gem 'bourbon',                '~> 3.1.8'
 
 group :production do
   gem 'rails_12factor'
-  gem 'rollbar',              '=  0.12.12'
+  gem 'rollbar'
 end
 
 group :development do
