@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
   validates :access_token, presence: true, uniqueness: true
 
   has_many :posts, dependent: :destroy
+  has_many :comments, dependent: :destroy
 
   after_create do
     self.recently_created = true
