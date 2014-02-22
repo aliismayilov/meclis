@@ -1,6 +1,8 @@
 meclis
 =======
 
+[![Build Status](https://travis-ci.org/aliismayilov/meclis.png)](https://travis-ci.org/aliismayilov/meclis)
+
 ## How to run this project?
 
 1. ```git clone REPO_URL```
