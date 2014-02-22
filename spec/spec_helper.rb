@@ -1,16 +1,13 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 
-if ENV['coverage'] == 'on'
-  require 'simplecov'
-  SimpleCov.start 'rails' do
-    minimum_coverage 100
-  end
+require 'simplecov'
+SimpleCov.start 'rails' do
+  minimum_coverage 100
 end
 
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-require 'rspec/autorun'
 require "email_spec"
 
 # Requires supporting ruby files with custom matchers and macros, etc,
@@ -41,7 +38,6 @@ RSpec.configure do |config|
 
   config.order = "random"
   config.render_views
-  config.treat_symbols_as_metadata_keys_with_true_values = true
   config.include FactoryGirl::Syntax::Methods
   config.include EmailSpec::Helpers
   config.include EmailSpec::Matchers
