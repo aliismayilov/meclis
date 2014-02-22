@@ -5,5 +5,5 @@ class Vote < ActiveRecord::Base
     less_than_or_equal_to: 1
 
   belongs_to :user
-  belongs_to :votable
+  belongs_to :votable, polymorphic: true
 end
