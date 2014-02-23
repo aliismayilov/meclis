@@ -22,5 +22,6 @@
 en:
   hello: "Hello world"
   sessions:
+    notice: 'You must be authenticated...'
     failure:
       alert: 'Could not authenticate, try again.'
