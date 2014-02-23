@@ -15,6 +15,7 @@ gem 'uglifier',               '~> 2.4.0'
 gem 'rack-canonical-host',    '~> 0.0.8'
 gem 'rack-timeout',           '~> 0.0.4'
 gem 'bourbon',                '~> 3.1.8'
+gem 'omniauth-facebook',      '~> 1.6.0'
 
 group :production do
   gem 'rails_12factor'
