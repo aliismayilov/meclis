@@ -21,3 +21,6 @@
 
 en:
   hello: "Hello world"
+  sessions:
+    failure:
+      alert: 'Could not authenticate, try again.'

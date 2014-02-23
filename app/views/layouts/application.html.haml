@@ -5,7 +5,7 @@
     %meta{:name => "keywords", :content => ""}
     %meta{:name => "description", :content => ""}
 
-    %title= page_title(app_name: 'example') # use content_for(:page_title, 'My title of my page') on views files like index.html.haml
+    %title Milsiz Məclis
 
     %link{:href => "/favicon.ico", :rel => "shortcut icon"}
     = yield(:header_tags)
@@ -32,7 +32,7 @@
 
       </script>
 
-  %body{:class => body_class}
+  %body
     #wrapper
       %header
         .holder
